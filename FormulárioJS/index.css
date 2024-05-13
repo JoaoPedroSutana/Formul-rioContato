@@ -1,0 +1,35 @@
+#box{
+    display: grid;
+    justify-content: center;
+    border: solid 1px black;
+    justify-items: start;
+    width: 350px;
+}
+#box button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 201, 0, 0.699);
+    color: white;
+    font-size: 15px;
+    border-color: rgba(0, 201, 0, 0.699);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+input{
+    width: 300px;
+    height: 25px;
+}
+#msg{
+    height: 70px;
+}
+.error-message{
+    color: red;
+}
+.error {
+    border: 1px solid red;
+}
